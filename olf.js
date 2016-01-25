@@ -50,14 +50,18 @@ var t = function(
   }
 };
 
+// was removed temporary because of error message in Chrome extensions:
+// 'window.localStorage is not available in packaged apps.'
+// 'Use chrome.storage.local instead.'
 /*
  * LocalStorage
  *
  * Authored by Jed Schmidt <http://jed.is> - WTFPL
  * More: https://gist.github.com/966030
  *
- */
+*/
 
+/*
 var s = function(
   a, // placeholder for storage object
   b  // placeholder for JSON
@@ -85,6 +89,7 @@ var s = function(
   || {},            // or an object otherwise
   JSON              // use native JSON (required)
 )
+*/
 
 /*
  * Bind/Unbind events
@@ -100,7 +105,7 @@ var s = function(
  *
  */
 
-var p = function(
+var b = function(
   a, // a DOM element
   b, // an event name such as "click"
   c, // (placeholder)
