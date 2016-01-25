@@ -1,8 +1,10 @@
-140 medley
+One letter functions JS
 ==========
 
-This is a micro-framework or a collection of small, helpful utilities for
-common javascript tasks.
+This is a js-library of small, helpful functions for common tasks.
+
+Function names:  
+_, **$**, a, **b**, c, d, e, f, g, h, i, **j**, k, l, **m**, n, o, p, q, r, s, **t**, u, v, w, x, y, z
 
 ### Size
 
@@ -12,13 +14,13 @@ common javascript tasks.
 
 ### Features
 
-* templating - `t();`
-* local storage - `s();`
-* bind/unbind events - `b();`
-* create DOM elements - `m();`
 * DOM selector - `$();`
+* bind/unbind events - `b();`
 * Get cross-browser xhr - `j();`
+* create DOM elements - `m();`
+* templating - `t();`
 
-Inspired by [140bytes][bytes].
+Inspired by [140medley][medley] authored by [Honza Pokorny][Honza]
 
-[bytes]: https://gist.github.com/962807
+[medley]: https://github.com/honza/140medley
+[Honza]: https://github.com/honza/140medley
