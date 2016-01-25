@@ -20,7 +20,8 @@ _, **$**, a, **b**, c, d, e, f, g, h, i, **j**, k, l, **m**, n, o, p, q, r, s, *
 * create DOM elements - `m();`
 * templating - `t();`
 
-Inspired by [140medley][medley] authored by [Honza Pokorny][Honza]
+Inspired by [140medley][medley] authored by [Honza Pokorny][Honza] and [Jed Schmidt][Schmidt]
 
 [medley]: https://github.com/honza/140medley
 [Honza]: https://github.com/honza/140medley
+[Schmidt]: https://github.com/jed

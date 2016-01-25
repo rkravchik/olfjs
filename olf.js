@@ -1,23 +1,10 @@
 /*
- * 140 medley
+ * OLF JS
+ * (c) 2016 - Roman Kravchik
  * (c) 2011 - Honza Pokorny
- * Licensed under the terms of the BSD license
+ * Licensed under the terms of the simplified BSD License
  *
- * This is a micro-framework or a collection of small, helpful utilities for
- * common javascript tasks.
- *
- * Size:
- *   Source:  8.6 kb
- *   Minified: 821 bytes
- *   gzipped: 504 bytes
- *
- * Features:
- *  - templating - t();
- *  - local storage - s();
- *  - bind/unbind events - b();
- *  - create DOM elements - m();
- *  - DOM selector - $();
- *  - Get cross-browser xhr - j();
+ * This is a js-library of small, helpful functions for common tasks.
  *
  */
 
@@ -31,7 +18,7 @@
  *    hello({name: "Jed"})
  *  )
  *
- * Copyright (C) 2011 Jed Schmidt <http://jed.is> - WTFPL
+ * Authored by Jed Schmidt <http://jed.is> - WTFPL
  * More: https://gist.github.com/964762
  */
 
@@ -66,7 +53,7 @@ var t = function(
 /*
  * LocalStorage
  *
- * Copyright (C) 2011 Jed Schmidt <http://jed.is> - WTFPL
+ * Authored by Jed Schmidt <http://jed.is> - WTFPL
  * More: https://gist.github.com/966030
  *
  */
@@ -108,7 +95,7 @@ var s = function(
  *     console.log('clicked');
  *   });
  *
- * Copyright (C) 2011 Jed Schmidt <http://jed.is> - WTFPL
+ * Authored by Jed Schmidt <http://jed.is> - WTFPL
  * More: https://gist.github.com/968186
  *
  */
@@ -143,11 +130,7 @@ var p = function(
  *   var el = m('<h1>Hello</h1>');
  *   document.body.appendChild(el);
  *
- *
- *            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
- *                    Version 2, December 2004
- *
- * Copyright (C) 2011 Jed Schmidt <http://jed.is> - WTFPL
+ * Authored by Jed Schmidt <http://jed.is> - WTFPL
  * More: https://gist.github.com/966233
  *
  */
@@ -177,8 +160,7 @@ var m = function(
  *   $('#name');
  *   $('.name');
  *
- *
- * Copyright (C) 2011 Jed Schmidt <http://jed.is> - WTFPL
+ * Authored by Jed Schmidt <http://jed.is> - WTFPL
  * More: https://gist.github.com/991057
  *
  */
@@ -207,12 +189,8 @@ var $ = function(
 
 /*
  * Get cross browser xhr object
- *
- *
- *            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
- *                    Version 2, December 2004
- *
- * Copyright (C) 2011 Jed Schmidt <http://jed.is>
+ * 
+ * Authored by Jed Schmidt <http://jed.is> - WTFPL
  * More: https://gist.github.com/993585
  *
  */
@@ -240,4 +218,3 @@ var j = function(
 
   catch(e){}               // ignore when it fails.
 }
-
