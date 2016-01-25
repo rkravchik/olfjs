@@ -8,9 +8,8 @@ _, **$**, a, **b**, c, d, e, f, g, h, i, **j**, k, l, **m**, n, o, p, q, r, s, *
 
 ### Size
 
-* Source:  8.6 kb
-* Minified: 821 bytes
-* gzipped: 504 bytes
+* Source:  6.27 kb
+* Minified: 685 bytes
 
 ### Features
 
